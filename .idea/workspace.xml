@@ -5,30 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6eb6dc-7a0c-46b7-b458-fd261322fc30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-email/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-fraud-detector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-log/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/ecommerce/CreateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/KafkaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-email/src/main/java/ecommerce/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/GsonDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/GsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/KafkaDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-log/src/main/java/ecommerce/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +66,25 @@
       <recent name="ecommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewOrder">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CreateUserService">
+    <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecommerce.CreateUserService" />
+      <module name="service-users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ecommerce.EmailService" />
       <module name="service-email" />
@@ -146,6 +152,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.FraudDetectorService2" />
+      <item itemvalue="Application.CreateUserService" />
       <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.FraudDetectorService" />
       <item itemvalue="Application.LogService" />
@@ -153,8 +160,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewOrder" />
+        <item itemvalue="Application.CreateUserService" />
         <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.NewOrder" />
         <item itemvalue="Application.FraudDetectorService" />
         <item itemvalue="Application.EmailService" />
       </list>
@@ -169,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667070793411</updated>
       <workItem from="1667070801686" duration="24593000" />
-      <workItem from="1667401544524" duration="18461000" />
+      <workItem from="1667401544524" duration="24310000" />
     </task>
     <servers />
   </component>
