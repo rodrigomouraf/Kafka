@@ -2,7 +2,15 @@
 
 [TOC]
 
-[Iniciando](#Iniciando)
+
+
+[Iniciando](#iniciando)
+
+[Tópicos](#topics)
+
+[Consumer Group](#consumer-group)
+
+[Armazenamento de mensagens](#source-dir)
 
 ## Motivação
 
@@ -154,7 +162,7 @@ Quando criamos e enviamos um produtor de registro necessitamos que seja criado u
 
 Precisamos ajustar nosso tempo de commit, pois o Kafka pode se perder e ter que refazer todo o balanceamento caso não tenhamos bem configurado o tempo de realização de commits entre operações. O pool é um instante que acontece um commit, existem outros instantes que acontecem commits que veremos mais para a frente, mas no momento vamos utilizar o pool para podermos inserir commits em tempos menores e assim evitarmos que o rebalanceamento afete tanto o consumo de nossas mensagens.
 
-## Armazenamento de mensagens
+## <a name='source-dir'>Armazenamento de mensagens</a>
 
 Dentro do nosso SO as mensagens mantidas pelo zookeeper são armazenadas dentro de um diretório temporário, o que isso significa, em qualquer SO se armazenamos dados em diretórios temporários podemos perder esses dados. 
 
